@@ -7,7 +7,7 @@ package javarefresher;
 
 /**
  *
- * @author venky
+ * @author venky kumar
  */
 public class JavaRefresher {
 
