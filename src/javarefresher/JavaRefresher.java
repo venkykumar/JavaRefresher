@@ -15,7 +15,6 @@ public class JavaRefresher {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
         MyObj1 obj = new MyObj1();
         obj.display();
     }
