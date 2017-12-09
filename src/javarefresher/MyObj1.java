@@ -18,6 +18,6 @@ public class MyObj1 {
      *
      */
     public void display() {
-        System.out.println("From Object");
+        System.out.println("From Object1");
     }
 }
