@@ -1,6 +1,6 @@
 package javarefresher;
 
-public class SquareRootCalculator {
+public class Calculator {
 
     /**
      * Calculates the square root of the given number.
@@ -14,4 +14,14 @@ public class SquareRootCalculator {
         }
         return Math.sqrt(number);
     }
+
+    /**
+     * Calculates the cube root of the given number.
+     * @param number value to compute cbrt for
+     * @return cube root of number
+     */
+    public double calculateCubeRoot(double number) {
+        return Math.cbrt(number);
+    }
+
 }
