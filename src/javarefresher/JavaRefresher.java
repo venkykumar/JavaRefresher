@@ -18,16 +18,18 @@ public class JavaRefresher {
         MyObj1 obj = new MyObj1();
         obj.display();
 
-        // ... existing code ...
         Calculator calculator = new Calculator();
         double number = 25;
         double result = calculator.calculateSquareRoot(number);
         System.out.println("Square root of " + number + " is " + result);
-        // ... existing code ...
 
         double cubeNumber = 27;
         double cubeResult = calculator.calculateCubeRoot(cubeNumber);
         System.out.println("Cube root of " + cubeNumber + " is " + cubeResult);
+
+        double radius = 5;
+        double area = calculator.calculateCircleArea(radius);
+        System.out.println("Area of a circle with radius " + radius + " is " + area);
     }
 
 }

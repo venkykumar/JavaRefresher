@@ -24,4 +24,19 @@ public class Calculator {
         return Math.cbrt(number);
     }
 
+    /**
+     * Calculates the area of a circle using the given radius.
+     * @param radius radius of the circle (must be >= 0)
+     * @return area of the circle
+     * @throws IllegalArgumentException if radius is negative
+     */
+    public double calculateCircleArea(double radius) {
+        if (radius < 0) {
+            throw new IllegalArgumentException("radius must be non-negative");
+        }
+        return Math.PI * radius * radius;
+    }
+
+    // ... existing code ...
+
 }
