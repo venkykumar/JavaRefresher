@@ -17,6 +17,13 @@ public class JavaRefresher {
     public static void main(String[] args) {
         MyObj1 obj = new MyObj1();
         obj.display();
+
+        // ... existing code ...
+        SquareRootCalculator calculator = new SquareRootCalculator();
+        double number = 25;
+        double result = calculator.calculateSquareRoot(number);
+        System.out.println("Square root of " + number + " is " + result);
+        // ... existing code ...
     }
 
 }
