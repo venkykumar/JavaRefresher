@@ -15,9 +15,6 @@ public class JavaRefresher {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        MyObj1 obj = new MyObj1();
-        obj.display();
-
         Calculator calculator = new Calculator();
         double number = 25;
         double result = calculator.calculateSquareRoot(number);
