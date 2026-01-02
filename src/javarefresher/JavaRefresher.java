@@ -24,6 +24,10 @@ public class JavaRefresher {
         double result = calculator.calculateSquareRoot(number);
         System.out.println("Square root of " + number + " is " + result);
         // ... existing code ...
+
+        double cubeNumber = 27;
+        double cubeResult = calculator.calculateCubeRoot(cubeNumber);
+        System.out.println("Cube root of " + cubeNumber + " is " + cubeResult);
     }
 
 }
