@@ -19,7 +19,7 @@ public class JavaRefresher {
         obj.display();
 
         // ... existing code ...
-        SquareRootCalculator calculator = new SquareRootCalculator();
+        Calculator calculator = new Calculator();
         double number = 25;
         double result = calculator.calculateSquareRoot(number);
         System.out.println("Square root of " + number + " is " + result);
